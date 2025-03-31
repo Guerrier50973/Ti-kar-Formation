@@ -3,11 +3,11 @@ document.addEventListener("DOMContentLoaded", () => {
     const chauffeurBtn = document.querySelector("#chauffeur");
   
     passagerBtn.addEventListener("click", () => {
-      alert("Bienvenue passager ! 🚗");
+      window.location.href = "passager.html";
     });
   
     chauffeurBtn.addEventListener("click", () => {
-      alert("Bienvenue chauffeur ! 🛣️");
+      window.location.href = "chauffeur.html";
     });
   });
   
